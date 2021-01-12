@@ -265,7 +265,6 @@ typedef struct cs_opt_skipdata {
 	void *user_data;
 } cs_opt_skipdata;
 
-
 #include "arm.h"
 #include "arm64.h"
 #include "m68k.h"

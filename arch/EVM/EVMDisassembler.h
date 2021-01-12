@@ -4,6 +4,7 @@
 #ifndef CS_EVMDISASSEMBLER_H
 #define CS_EVMDISASSEMBLER_H
 
+#include <stdint.h>
 #include "../../MCInst.h"
 
 bool EVM_getInstruction(csh ud, const uint8_t *code, size_t code_len,
